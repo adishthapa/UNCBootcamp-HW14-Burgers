@@ -1,0 +1,23 @@
+{
+  "name": "uncbootcamp-hw14-burgers",
+  "version": "1.0.0",
+  "description": "UNC Coding Bootcamp HW 14 Burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adishthapa/UNCBootcamp-HW14-Burgers.git"
+  },
+  "author": "adishthapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adishthapa/UNCBootcamp-HW14-Burgers/issues"
+  },
+  "homepage": "https://github.com/adishthapa/UNCBootcamp-HW14-Burgers#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
