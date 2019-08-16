@@ -1,0 +1,19 @@
+h1 {
+    font-size: 3.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.red {
+    background-color: #F42107;
+}
+
+.green {
+    background-color: #67AA06;
+}
+
+.yellow {
+    background-color: #E79C4A;
+}
