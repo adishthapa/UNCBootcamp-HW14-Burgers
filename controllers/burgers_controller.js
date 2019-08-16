@@ -5,7 +5,6 @@ var router = express.Router();
 
 router.get("/", function(req, res) {
     burgers.selectAll(function(data) {
-        console.log(data);
         var hbsObject = {
             burgers: data
         };
@@ -14,7 +13,6 @@ router.get("/", function(req, res) {
 });
 
 router.post("/api/burgers", function(req, res) {
-    console.log(req.body);
     burgers.insertOne(["burger_name", "devoured"], [req.body.burger_name, false], function(result) {
         res.json({ id: result.insertId });
     });

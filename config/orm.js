@@ -34,7 +34,6 @@ var orm = {
         var queryString = "INSERT INTO " + table;
         queryString += " (" + cols.toString() + ") ";
         queryString += "VALUES (" + printQuestionMarks(vals.length) + ");";
-        console.log(queryString);
         connection.query(queryString, vals, function(err, result) {
             if (err) throw err;
             cb(result);
@@ -44,7 +43,6 @@ var orm = {
         var queryString = "UPDATE " + table;
         queryString += " SET " + objToSql(objColVals);
         queryString += " WHERE " + condition + ";";
-        console.log(queryString);
         connection.query(queryString, function(err, result) {
             if (err) throw err;
             cb(result);
