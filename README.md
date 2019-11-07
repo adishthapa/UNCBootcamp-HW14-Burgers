@@ -23,5 +23,5 @@ A Restaurant application that allows a User to input the names of the burgers th
 
 ## Deployed Link
 
-[https://secret-chamber-98759.herokuapp.com](https://secret-chamber-98759.herokuapp.com)
+[https://adishthapa-eat-da-burger.herokuapp.com](https://adishthapa-eat-da-burger.herokuapp.com)
 
